@@ -1,11 +1,13 @@
 #! /bin/bash
 
- declare -A dict
-   dict['p']=x:"$(( a+b*c ))"
-   dict['q']=y:"$(( a*b+c ))"
-   dict['r']=z:"$(( c+b/a ))"
-   dict['s']=A:"$(( a%b+c ))"
-   echo "{!dict[*]}"
+ for key in ${!dict[*]}
+  do
+     echo "$key:${dict[$key]}"
+  done
+
+  arr=("$x" "$y" "$z" "$A")
+  echo ${arr[@]}
+
 
 
 
