@@ -1,12 +1,8 @@
 #! /bin/bash
 
- for key in ${!dict[*]}
-  do
-     echo "$key:${dict[$key]}"
-  done
+ echo "result in Dessending order"
+  sort -r | "${arr[@]}"
 
-  arr=("$x" "$y" "$z" "$A")
-  echo ${arr[@]}
 
 
 
