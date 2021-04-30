@@ -1,7 +1,8 @@
 #! /bin/bash
 
- y="$(( a*b+c ))"
-   echo y:"$(( a*b+c ))"
+ z="$(( c+b/a ))"
+   echo z:"$(( c+b/a ))"
+
 
 
 
