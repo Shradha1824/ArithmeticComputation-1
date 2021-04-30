@@ -1,6 +1,7 @@
 #! /bin/bash
 
-  x="$(( a+b*c ))"
-  echo x:"$(( a+b*c ))"
+ y="$(( a*b+c ))"
+   echo y:"$(( a*b+c ))"
+
 
 
