@@ -32,5 +32,7 @@
   echo "result in Dessending order"
   sort -r | "${arr[@]}"
 
+  echo "result in Assending order"
+  sort | "${arr[@]}"
 
 
