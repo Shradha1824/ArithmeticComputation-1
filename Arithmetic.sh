@@ -29,6 +29,8 @@
   arr=("$x" "$y" "$z" "$A")
   echo ${arr[@]}
 
+  echo "result in Dessending order"
+  sort -r | "${arr[@]}"
 
 
 
