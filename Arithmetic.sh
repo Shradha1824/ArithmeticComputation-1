@@ -21,6 +21,13 @@
   dict['s']=A:"$(( a%b+c ))"
   echo "{!dict[*]}"
 
+  for key in ${!dict[*]}
+  do
+     echo "$key:${dict[$key]}"
+  done
+
+  arr=("$x" "$y" "$z" "$A")
+  echo ${arr[@]}
 
 
 
